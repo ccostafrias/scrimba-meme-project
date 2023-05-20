@@ -1,2 +1,2 @@
 # scrimba-meme-project
- Third project
+Second project by Scrimba course using React

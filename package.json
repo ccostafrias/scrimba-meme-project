@@ -1,6 +1,6 @@
 {
   "name": "react-project",
-  "homepage": "https://ccostafrias.github.io/scrimba-airbnb-project",
+  "homepage": "https://ccostafrias.github.io/scrimba-meme-project",
   "private": true,
   "dependencies": {
     "json-loader": "^0.5.7",
