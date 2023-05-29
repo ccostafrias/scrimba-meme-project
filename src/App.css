@@ -1,11 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
 html, body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
 }
 
 body {
     min-height: 100vh;
-    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button, input, select, textarea {
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 2em;
+    color: white;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.header > img {
+    width: 50px;
+}
+
+.header > h1 {
+    font-size: 1.25rem;
+}
+
+.header > p {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.header > :last-child {
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 90%;
+    max-width: 720px;
+    margin: auto;
+    padding: 2em;
+}
+
+.form {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "input1 input2"
+    "button button";
+    gap: 1em;
+}
+
+.form > input[type="text"] {
+    width: 100%;
+    border: 1px solid #D5D5D5;
+    border-radius: .5em;
+    padding: 1em;
+}
+
+.form > #top-txt {
+    grid-area: input1;
+}
+
+
+.form > #bot-txt {
+    grid-area: input2;
+}
+
+.form > button {
+    grid-area: button;
+    color: white;
+    border-radius: .5em;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 1em;
+    cursor: pointer;
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+}
+.image-container > img {
+    width: 100%;
+}
+
+.image--txt {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+    top: 0;
+}
+
+.bot {
+    bottom: 0;
 }
