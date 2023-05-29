@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scrimba-meme-project/static/css/main.9b51c540.css",
+    "main.js": "/scrimba-meme-project/static/js/main.8cb7eb75.js",
+    "index.html": "/scrimba-meme-project/index.html",
+    "main.9b51c540.css.map": "/scrimba-meme-project/static/css/main.9b51c540.css.map",
+    "main.8cb7eb75.js.map": "/scrimba-meme-project/static/js/main.8cb7eb75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b51c540.css",
+    "static/js/main.8cb7eb75.js"
+  ]
+}
